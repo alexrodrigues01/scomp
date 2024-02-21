@@ -1,0 +1,13 @@
+#define ARRAY_SIZE 1000
+#include <time.h>
+#include <stdlib.h>
+
+int spawn_childs(int n) {
+
+}
+
+
+int main(){
+
+	return 0;
+}

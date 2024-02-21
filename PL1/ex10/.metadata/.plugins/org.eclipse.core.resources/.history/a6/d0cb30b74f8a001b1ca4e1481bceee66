@@ -1,0 +1,6 @@
+
+
+int main(){
+
+	 int numbers[ARRAY_SIZE];
+}

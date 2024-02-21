@@ -1,0 +1,1 @@
+Não, o sinal 9 (sigkill) e o 19 (sigstop) não podem ser bloqueados , portanto não estão na lista dos sinais bloqueados.

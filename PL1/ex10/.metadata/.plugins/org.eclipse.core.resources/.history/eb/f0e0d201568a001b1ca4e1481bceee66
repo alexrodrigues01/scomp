@@ -1,0 +1,17 @@
+#define ARRAY_SIZE 1000
+#include <time.h>
+#include <stdlib.h>
+
+int spawn_childs(int n) {
+	pid_t=fork();
+	int i;
+	for(i=1;i<=n;i++){
+
+	}
+}
+
+
+int main(){
+
+	return 0;
+}

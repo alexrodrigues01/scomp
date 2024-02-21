@@ -1,0 +1,1 @@
+O  que proporciona uma melhor perfomance no sistema é ter o mesmo número de processos e de processadores.

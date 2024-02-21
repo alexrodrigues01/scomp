@@ -1,0 +1,11 @@
+#define ARRAY_SIZE 1000
+#include <time.h>
+int main(){
+	int i;
+	 int numbers[ARRAY_SIZE];
+	 srand ((unsigned) time (&t));
+	 time_t t;
+	 for (i = 0; i < ARRAY_SIZE; i++)
+		 numbers[i] = rand () % 10000;
+
+}

@@ -1,0 +1,20 @@
+a)
+
+CTRL-C sends the signal SIGINT and ends the process.
+
+C)
+
+CRTL-\ sends the signal SIGQUIT and ends the process.
+
+ 
+e)
+Prints the message from the previous exercises b and c.
+
+
+f)
+The process stopped
+Jobs: we can see the stopped processes.
+Kill %1: kills the first stopped process.
+
+g)Quando estamos a usar handlers, devemos usar o write pois é uma função segura.
+  Já o printf não é uma função segura.

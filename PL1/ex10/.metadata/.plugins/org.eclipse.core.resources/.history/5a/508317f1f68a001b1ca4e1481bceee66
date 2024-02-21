@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+	for(;;){
+		printf("I love SCOMP");
+		sleep(1);
+	}
+}

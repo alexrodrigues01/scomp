@@ -1,0 +1,3 @@
+a) 16 processos
+
+b) Em vez de sleep, exit

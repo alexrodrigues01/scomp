@@ -1,0 +1,1 @@
+Não porque se for o processo filho primeiro vai ser executado o printf da linha 6 depois o print f da linha 11, e sou de seguida é que o processo se repete para o pai.

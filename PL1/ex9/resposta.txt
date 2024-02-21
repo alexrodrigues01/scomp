@@ -1,0 +1,1 @@
+Podemos garantir que vai estar ordenado porque damos wait quando se faz o for

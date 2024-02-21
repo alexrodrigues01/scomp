@@ -1,0 +1,28 @@
+#define ARRAY_SIZE 1000
+#include <time.h>
+#include <stdlib.h>
+int main(){
+	int i,a,limit=200,maxValue=0,status;
+	 int numbers[ARRAY_SIZE];
+	 time_t t;
+	 srand ((unsigned) time (&t));
+
+	 for (i = 0; i < ARRAY_SIZE; i++)
+		 numbers[i] = rand () % 256;
+
+	 for(i=1;i<=5;i++){
+		 pid_t pid=fork();
+		 if(pid==0){
+			 for(a=limit-200;a<limit;a++){
+				 if(numbers[a]>maxValue){
+					 maxValue=numbers[a];
+				 }
+			 }
+			 printf("MaxValue filho %d: %d\n",i,maxValue);
+			 exit(maxValue);
+		 }
+		 waitpid(pid,&status,0);
+
+		 limit+=200;
+	 }
+}
